@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 97vw;
+    padding: 15px;
+    margin-left: auto;
+}
+
+.heading{
+    padding: 10px 0;
+    width: 100%;
+    margin: auto;
+    border-bottom: 1.5px solid gray;
+    border-top: 1.5px solid gray;
+}
+
+.box-2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-four{
+    margin-top: 10px;
+    width: 70%;
+}
+
+.header-list{
+    display: flex;
+}
+
+.header{
+    margin: 5px;
+    text-align: center;
+    padding: 0 15px 40px 15px;
+    background-color: #FDEBD0;
+    width: 50%;
+}
+
+.header-heading{
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.header-para{
+    margin-top: 10px;
+}
+
+.list {
+    margin: 5px;
+    padding: 0 15px 40px 15px;
+    background-color: #FDEBD0;
+    width: 50%;
+}
+
+.list-heading{
+    margin: 10px 0;
+    text-align: center;
+}
+
+ol{
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+ol li{
+    line-height: 25px;
+}
+
+.circle-list{
+    margin-left: 10%;
+}
+
+.flex-item {
+    padding: 5px 0;
+    width: 99%;
+    margin: 5px;
+    background-color: #FDEBD0;
+}
+
+.flex-item-box{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+}
+
+.flex-item-heading{
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+.box{
+    padding: 10px 0;
+    font-weight: bold;
+    text-align: center;
+    width: 150px;
+    height: 120px;
+    background-color: #9cf8c2;
+    margin: 10px;
+}
+
+.register{
+    padding: 0 10px;
+    margin-top: 10px;
+    width: 26%;
+    background-color: #FDEBD0;
+}
+
+.register-heading{
+    margin: 5px 0;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+form{
+    padding-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+input{
+    width: 70%;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 15px;
+    padding: 7px 0;
+    text-align: center;
+    background-color: #f5f1f1;
+}
+input::placeholder{
+    color: rgb(146, 140, 140);
+}
+
+input[type=submit]{
+    background-color: green;
+    color: black;
+}
+
+@media only screen and (max-width:480px) {
+
+    .heading{
+        width: 90%;
+    }
+
+    .container{
+        padding:10px
+    }
+    .box-2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .all-four{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .header-list {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header{
+        width: 85%;
+    }
+
+    .list {
+        width: 85%;
+    }
+
+    .flex-item{
+        width: 90%;
+        position: absolute;
+        top: 165%;
+
+    }
+
+    .flex-item-box{
+        display: flex;
+            justify-content: center;
+    }
+
+
+    .register{
+        width: 84%;
+        margin-left: 2%;
+        position: absolute;
+        top: 95%;
+    }
+}
